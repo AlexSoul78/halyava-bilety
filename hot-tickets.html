@@ -3,173 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Горящие билеты: как ловить выгодные предложения и не переплачивать</title>
+    <title>Горящие билеты: как ловить выгодные предложения | Билеты Халява</title>
     <meta name="description" content="Горящие авиабилеты: откуда берутся, где искать, как покупать без риска. Чек-лист и советы для выгодных путешествий.">
     <style>
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: Arial, sans-serif;
-            background: #f9f6f0;
-            color: #333;
-            line-height: 1.7;
-        }
-        .header {
-            background: #fff;
-            padding: 20px 0;
-            text-align: center;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-        }
-        .header img {
-            max-width: 200px;
-            height: auto;
-        }
-        .container {
-            max-width: 800px;
-            margin: 30px auto;
-            padding: 0 20px;
-        }
-        h1 {
-            font-size: 28px;
-            margin-bottom: 20px;
-            text-align: center;
-        }
-        h2 {
-            font-size: 22px;
-            margin-top: 30px;
-            color: #2c6e4f;
-        }
-        p {
-            margin: 15px 0;
-        }
-        ul {
-            margin: 15px 0 15px 20px;
-        }
-        .highlight {
-            background: #fff;
-            border-radius: 10px;
-            padding: 20px;
-            margin: 15px 0;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-        }
-        .btn {
-            display: inline-block;
-            background: #ffcc00;
-            color: #000;
-            padding: 15px 30px;
-            border-radius: 6px;
-            text-decoration: none;
-            font-weight: bold;
-            font-size: 18px;
-            margin-top: 20px;
-        }
-        .btn:hover {
-            background: #f0b800;
-        }
-        .back-link {
-            text-align: center;
-            margin-top: 30px;
-        }
-        .back-link a {
-            color: #2c6e4f;
-            text-decoration: none;
-        }
-        .footer {
-            text-align: center;
-            padding: 20px;
-            color: #999;
-            font-size: 14px;
-        }
+        body { margin: 0; padding: 0; font-family: Arial, sans-serif; background: #f9f6f0; color: #333; line-height: 1.7; }
+        .header { background: #fff; padding: 20px 0; text-align: center; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
+        .header img { max-width: 120px; height: auto; }
+        .header .brand-text { font-size: 22px; font-weight: bold; color: #2c6e4f; }
+        .container { max-width: 800px; margin: 30px auto; padding: 0 20px; }
+        h1 { font-size: 28px; margin-bottom: 20px; text-align: center; }
+        .intro { text-align: center; margin-bottom: 30px; color: #555; }
+        .tip-card { background: #fff; border-radius: 10px; padding: 20px; margin-bottom: 20px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
+        .tip-card h2 { margin: 0 0 10px; font-size: 22px; color: #2c6e4f; }
+        .tip-card p { margin: 0; color: #666; }
+        .widget-container { background: #fff; border-radius: 10px; padding: 20px; margin-top: 30px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); text-align: center; }
+        .btn { display: inline-block; background: #ffcc00; color: #000; padding: 15px 30px; border-radius: 6px; text-decoration: none; font-weight: bold; font-size: 18px; margin-top: 20px; }
+        .related { background: #fff; border-radius: 10px; padding: 20px; margin-top: 30px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
+        .back-link { text-align: center; margin-top: 30px; }
+        .back-link a { color: #2c6e4f; text-decoration: none; }
+        .footer { text-align: center; padding: 20px; color: #999; font-size: 14px; }
     </style>
 </head>
 <body>
 
     <div class="header">
         <img src="logo.jpg" alt="NEW ZEM TOUR">
+        <span class="brand-text">Билеты Халява</span>
     </div>
-<!-- Навигация по сайту -->
-<nav class="nav-links" style="background: #2c6e4f; padding: 12px 20px; text-align: center; border-radius: 8px; margin: 0 auto 25px; max-width: 1000px;">
-    <a href="index.html" style="color: #fff; text-decoration: none; font-weight: bold; margin: 0 12px;">🏠 Главная</a>
-    <a href="hot-tickets.html" style="color: #fff; text-decoration: none; font-weight: bold; margin: 0 12px;">🔥 Горячие билеты</a>
-    <a href="tours.html" style="color: #fff; text-decoration: none; font-weight: bold; margin: 0 12px;">🧳 Туры</a>
-    <a href="hotels.html" style="color: #fff; text-decoration: none; font-weight: bold; margin: 0 12px;">🏨 Отели</a>
-    <a href="shop.html" style="color: #fff; text-decoration: none; font-weight: bold; margin: 0 12px;">🎒 Товары</a>
-    <a href="articles.html" style="color: #fff; text-decoration: none; font-weight: bold; margin: 0 12px;">📚 Статьи</a>
-</nav>
+
+    <!-- Навигация -->
+    <nav class="nav-links" style="background: #2c6e4f; padding: 12px 20px; text-align: center; border-radius: 8px; margin: 0 auto 25px; max-width: 1000px;">
+        <a href="index.html" style="color: #fff; text-decoration: none; font-weight: bold; margin: 0 12px;">🏠 Главная</a>
+        <a href="hot-tickets.html" style="color: #fff; text-decoration: none; font-weight: bold; margin: 0 12px;">🔥 Горячие билеты</a>
+        <a href="tours.html" style="color: #fff; text-decoration: none; font-weight: bold; margin: 0 12px;">🧳 Туры</a>
+        <a href="hotels.html" style="color: #fff; text-decoration: none; font-weight: bold; margin: 0 12px;">🏨 Отели</a>
+        <a href="shop.html" style="color: #fff; text-decoration: none; font-weight: bold; margin: 0 12px;">🎒 Товары</a>
+        <a href="articles.html" style="color: #fff; text-decoration: none; font-weight: bold; margin: 0 12px;">📚 Статьи</a>
+    </nav>
+
     <div class="container">
 
-        <h1>🔥 Горящие билеты: как ловить выгодные предложения и не переплачивать</h1>
+        <h1>🔥 Горящие билеты: как ловить выгодные предложения</h1>
+        <p class="intro">Горящие билеты появляются неожиданно. Рассказываем, как их найти и купить без риска.</p>
 
-        <p>Каждый путешественник мечтает купить авиабилет за полцены или даже дешевле. И это реально, если знать, откуда берутся горящие билеты и как их правильно ловить. В этой статье разберём всё по полочкам: что такое горящие билеты, где их искать, какие риски и как не остаться с носом.</p>
-
-        <h2>Откуда берутся горящие билеты</h2>
-        <p>Горящие билеты появляются, когда авиакомпания не может заполнить рейс. Это происходит по разным причинам: неудачное время вылета, низкий сезон, резкое падение спроса, отмена чартеров, или же ошибочно выставленные тарифы. Чтобы не лететь с пустыми креслами, перевозчики снижают цены иногда в 2–3 раза. Именно эти предложения называют «горящими».</p>
-        <p>Чаще всего они появляются за 1–7 дней до вылета. Иногда бывают и «сверхгорящие» — с вылетом через несколько часов. Поймать такие билеты сложнее, но экономия может быть огромной.</p>
-
-        <h2>Где искать горящие билеты</h2>
-        <ul>
-            <li><strong>Агрегаторы с фильтром «горящие».</strong> На многих сервисах есть специальный раздел, где собраны самые дешёвые предложения на ближайшие даты. Например, на нашем сайте вы можете ввести направление и увидеть лучшие цены прямо сейчас.</li>
-            <li><strong>Telegram-каналы и боты.</strong> Существуют каналы, которые автоматически мониторят снижения цен и публикуют лучшие предложения. Подпишитесь на несколько проверенных и включите уведомления.</li>
-            <li><strong>Соцсети авиакомпаний.</strong> Иногда перевозчики объявляют о распродажах в своих аккаунтах. Следите за любимыми авиакомпаниями.</li>
-            <li><strong>Специализированные форумы.</strong> Там путешественники делятся находками и опытом.</li>
-        </ul>
-
-        <h2>Как правильно покупать горящие билеты</h2>
-        <p>Горящие билеты требуют быстрой реакции, но не стоит терять голову. Вот пошаговый алгоритм:</p>
-        <ul>
-            <li><strong>Проверьте даты и паспорт.</strong> Убедитесь, что загранпаспорт действителен и срок его действия соответствует требованиям страны.</li>
-            <li><strong>Сравните цену.</strong> Даже если цена кажется низкой, проверьте её на другом сервисе. Иногда «горящее» предложение не такое уж выгодное.</li>
-            <li><strong>Изучите условия тарифа.</strong> Внимательно посмотрите, что включено: багаж, питание, возможность возврата. Иногда низкая цена достигается за счёт отсутствия багажа или невозможности обмена.</li>
-            <li><strong>Проверьте стыковки.</strong> Если рейс с пересадкой, убедитесь, что времени достаточно.</li>
-            <li><strong>Оплачивайте сразу.</strong> Горящие билеты быстро заканчиваются. Если решение принято, не откладывайте оплату.</li>
-        </ul>
-
-        <div class="highlight">
-            <p><strong>Пример из жизни:</strong><br>
-            Москва — Пхукет за 9 800 ₽ туда-обратно с вылетом через сутки. Нашёл в Telegram-канале, сразу проверил на агрегаторе, убедился, что багаж не нужен, и купил. Через два часа цена вернулась к 24 000 ₽.</p>
+        <div class="tip-card">
+            <h2>Откуда берутся горящие билеты</h2>
+            <p>Авиакомпании снижают цены, когда рейс не заполняется. Это происходит за 1–7 дней до вылета. Иногда скидки достигают 50%.</p>
         </div>
 
-        <h2>Риски горящих билетов</h2>
-        <p>Помимо выгоды, есть и подводные камни:</p>
-        <ul>
-            <li><strong>Нельзя вернуть или обменять.</strong> Большинство горящих тарифов невозвратные. Если планы изменятся, деньги пропадут.</li>
-            <li><strong>Неудобное время.</strong> Часто дешёвые рейсы вылетают ночью или очень рано. Закладывайте время на дорогу в аэропорт и возможные задержки.</li>
-            <li><strong>Скрытые комиссии.</strong> Некоторые посредники добавляют сборы за оплату или бронирование. Проверяйте итоговую стоимость.</li>
-            <li><strong>Риск отмены рейса.</strong> В низкий сезон авиакомпании иногда объединяют рейсы, и тогда ваш билет могут перенести или отменить. Оформляйте страховку от невыезда, если это важно.</li>
-        </ul>
+        <div class="tip-card">
+            <h2>Где искать</h2>
+            <p>Используйте агрегаторы с фильтром «горящие», подписывайтесь на Telegram-каналы, следите за распродажами авиакомпаний.</p>
+        </div>
 
-        <h2>Чек-лист перед покупкой горящего билета</h2>
-        <ul>
-            <li>Загранпаспорт действителен не менее 6 месяцев.</li>
-            <li>Визовые требования страны назначения.</li>
-            <li>Наличие свободного времени для поездки.</li>
-            <li>Понимание условий тарифа (багаж, возврат).</li>
-            <li>Проверка рейса на сайте авиакомпании.</li>
-            <li>Оформление страховки.</li>
-        </ul>
+        <div class="tip-card">
+            <h2>Как купить</h2>
+            <p>Сравните цену на нескольких площадках, проверьте условия тарифа, отключите лишние услуги и оплачивайте сразу — горящие билеты быстро заканчиваются.</p>
+        </div>
 
-        <p>Готовы ловить выгодные билеты? Воспользуйтесь поиском на нашем сайте — он покажет самые низкие цены на нужные вам направления прямо сейчас.</p>
-        <a class="btn" href="https://aviasales.tpo.li/V1Yn9vKN?erid=2VtzqvH5u4f" target="_blank" rel="noopener">✈️ Найти горячие билеты</a>
-<p style="font-size: 12px; color: #999; margin-top: 5px;">Реклама. ООО «Авиасейлс» (aviasales.ru)</p>
+        <div class="widget-container">
+            <p><strong>Найдите горящие билеты сейчас:</strong></p>
+            <a class="btn" href="https://aviasales.tpo.li/V1Yn9vKN?erid=2VtzqvH5u4f" target="_blank" rel="noopener">✈️ Найти горящие билеты</a>
+            <p style="font-size: 12px; color: #999; margin-top: 5px;">Реклама. ООО «Авиасейлс» (aviasales.ru)</p>
+        </div>
 
-        <p style="margin-top: 30px;">А вы когда-нибудь покупали горящие билеты? Куда летали и сколько сэкономили? Поделитесь опытом!</p>
+        <div class="related">
+            <h2 style="font-size: 20px; color: #2c6e4f; margin: 0 0 15px;">📖 Читайте также</h2>
+            <ul style="margin: 0; padding-left: 20px;">
+                <li style="margin-bottom: 10px;"><a href="lowcost.html" style="color: #2c6e4f; text-decoration: none;">✈️ Лоукостеры: секреты дешёвых перелётов</a></li>
+                <li style="margin-bottom: 10px;"><a href="layovers.html" style="color: #2c6e4f; text-decoration: none;">🔄 Секретные стыковки</a></li>
+                <li><a href="mistakes.html" style="color: #2c6e4f; text-decoration: none;">⚠️ Ошибки при покупке авиабилетов</a></li>
+            </ul>
+        </div>
 
         <div class="back-link">
-            <a href="https://alexsoul78.github.io/halyava-bilety/">← На главную</a>
+            <a href="index.html">← На главную</a>
         </div>
-<!-- Читайте также -->
-<div style="background: #fff; border-radius: 10px; padding: 20px; margin-top: 20px; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
-    <h2 style="font-size: 20px; color: #2c6e4f; margin: 0 0 15px;">📖 Читайте также</h2>
-    <ul style="margin: 0; padding-left: 20px;">
-        <li style="margin-bottom: 10px;"><a href="hot-tickets.html" style="color: #2c6e4f; text-decoration: none;">🔥 Горящие билеты: как ловить выгодные предложения</a></li>
-        <li style="margin-bottom: 10px;"><a href="lowcost.html" style="color: #2c6e4f; text-decoration: none;">✈️ Лоукостеры: секреты дешёвых перелётов</a></li>
-        <li><a href="mistakes.html" style="color: #2c6e4f; text-decoration: none;">⚠️ Ошибки при покупке авиабилетов</a></li>
-    </ul>
-</div>
     </div>
 
     <div class="footer">
-        © 2026 NEW ZEM TOUR. Все права защищены.
+        © 2026 Билеты Халява | NEW ZEM TOUR. Все права защищены.<br>
+        <a href="about.html" style="color: #999; text-decoration: none;">О сайте</a> |
+        <a href="privacy.html" style="color: #999; text-decoration: none;">Политика конфиденциальности</a>
     </div>
 
 </body>
