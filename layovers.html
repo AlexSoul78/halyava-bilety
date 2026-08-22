@@ -3,161 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Секретные стыковки: как превратить пересадку в мини-путешествие</title>
+    <title>Секретные стыковки: как превратить пересадку в мини-путешествие | Билеты Халява</title>
     <meta name="description" content="Как находить дешёвые стыковочные рейсы и превращать пересадку в мини-отпуск. Практические советы и чек-лист.">
     <style>
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: Arial, sans-serif;
-            background: #f9f6f0;
-            color: #333;
-            line-height: 1.7;
-        }
-        .header {
-            background: #fff;
-            padding: 20px 0;
-            text-align: center;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-        }
-        .header img {
-            max-width: 200px;
-            height: auto;
-        }
-        .container {
-            max-width: 800px;
-            margin: 30px auto;
-            padding: 0 20px;
-        }
-        h1 {
-            font-size: 28px;
-            margin-bottom: 20px;
-            text-align: center;
-        }
-        h2 {
-            font-size: 22px;
-            margin-top: 30px;
-            color: #2c6e4f;
-        }
-        p {
-            margin: 15px 0;
-        }
-        ul {
-            margin: 15px 0 15px 20px;
-        }
-        .highlight {
-            background: #fff;
-            border-radius: 10px;
-            padding: 20px;
-            margin: 15px 0;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-        }
-        .btn {
-            display: inline-block;
-            background: #ffcc00;
-            color: #000;
-            padding: 15px 30px;
-            border-radius: 6px;
-            text-decoration: none;
-            font-weight: bold;
-            font-size: 18px;
-            margin-top: 20px;
-        }
-        .btn:hover {
-            background: #f0b800;
-        }
-        .back-link {
-            text-align: center;
-            margin-top: 30px;
-        }
-        .back-link a {
-            color: #2c6e4f;
-            text-decoration: none;
-        }
-        .footer {
-            text-align: center;
-            padding: 20px;
-            color: #999;
-            font-size: 14px;
-        }
+        body { margin: 0; padding: 0; font-family: Arial, sans-serif; background: #f9f6f0; color: #333; line-height: 1.7; }
+        .header { background: #fff; padding: 20px 0; text-align: center; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
+        .header img { max-width: 120px; height: auto; }
+        .header .brand-text { font-size: 22px; font-weight: bold; color: #2c6e4f; }
+        .container { max-width: 800px; margin: 30px auto; padding: 0 20px; }
+        h1 { font-size: 28px; margin-bottom: 20px; text-align: center; }
+        .intro { text-align: center; margin-bottom: 30px; color: #555; }
+        .tip-card { background: #fff; border-radius: 10px; padding: 20px; margin-bottom: 20px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
+        .tip-card h2 { margin: 0 0 10px; font-size: 22px; color: #2c6e4f; }
+        .tip-card p { margin: 0; color: #666; }
+        .widget-container { background: #fff; border-radius: 10px; padding: 20px; margin-top: 30px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); text-align: center; }
+        .related { background: #fff; border-radius: 10px; padding: 20px; margin-top: 30px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
+        .back-link { text-align: center; margin-top: 30px; }
+        .back-link a { color: #2c6e4f; text-decoration: none; }
+        .footer { text-align: center; padding: 20px; color: #999; font-size: 14px; }
     </style>
 </head>
 <body>
 
     <div class="header">
         <img src="logo.jpg" alt="NEW ZEM TOUR">
+        <span class="brand-text">Билеты Халява</span>
     </div>
+
+    <!-- Навигация -->
+    <nav class="nav-links" style="background: #2c6e4f; padding: 12px 20px; text-align: center; border-radius: 8px; margin: 0 auto 25px; max-width: 1000px;">
+        <a href="index.html" style="color: #fff; text-decoration: none; font-weight: bold; margin: 0 12px;">🏠 Главная</a>
+        <a href="hot-tickets.html" style="color: #fff; text-decoration: none; font-weight: bold; margin: 0 12px;">🔥 Горячие билеты</a>
+        <a href="tours.html" style="color: #fff; text-decoration: none; font-weight: bold; margin: 0 12px;">🧳 Туры</a>
+        <a href="hotels.html" style="color: #fff; text-decoration: none; font-weight: bold; margin: 0 12px;">🏨 Отели</a>
+        <a href="shop.html" style="color: #fff; text-decoration: none; font-weight: bold; margin: 0 12px;">🎒 Товары</a>
+        <a href="articles.html" style="color: #fff; text-decoration: none; font-weight: bold; margin: 0 12px;">📚 Статьи</a>
+    </nav>
 
     <div class="container">
 
-        <h1>Секретные стыковки: как превратить пересадку в мини-путешествие и сэкономить на билетах</h1>
+        <h1>🔄 Секретные стыковки: как превратить пересадку в мини-путешествие</h1>
+        <p class="intro">Рейсы с пересадками часто стоят в полтора-два раза дешевле прямых. Узнайте, как находить выгодные маршруты и не бояться ожидания.</p>
 
-        <p>Когда мы слышим слово «стыковка», то представляем унылое ожидание в аэропорту, неудобные кресла и потерянные часы. Но опытные путешественники знают: пересадка может стать бонусом к поездке, а не наказанием. Более того, рейсы с пересадками часто стоят в полтора-два раза дешевле прямых. В этой статье разберём, как находить выгодные стыковочные маршруты, сколько времени закладывать и как из технической остановки сделать мини-отпуск.</p>
-
-        <h2>Почему стыковки дешевле</h2>
-        <p>Прямые рейсы удобны, но авиакомпании берут за комфорт дополнительную плату. Стыковочные маршруты дешевле, потому что:</p>
-        <ul>
-            <li>Авиакомпания заполняет два рейса вместо одного.</li>
-            <li>Перевозчики конкурируют за транзитного пассажира и снижают цены.</li>
-            <li>Лоукостеры часто используют неудобные аэропорты, что тоже отражается на тарифе.</li>
-        </ul>
-
-        <div class="highlight">
-            <p><strong>Пример экономии:</strong><br>
-            Москва — Бангкок прямым рейсом стоит от 38 000 ₽. Маршрут с пересадкой в Дубае или Дохе обойдётся в 14 000–18 000 ₽. Разница в цене покрывает не только неудобство, но и ночь в отеле, ужин и сувениры.</p>
+        <div class="tip-card">
+            <h2>Почему стыковки дешевле</h2>
+            <p>Авиакомпании конкурируют за транзитного пассажира и снижают цены. Лоукостеры используют неудобные аэропорты, что тоже отражается на тарифе.</p>
         </div>
 
-        <h2>Как находить выгодные стыковки</h2>
-        <p>Есть несколько способов. Самый простой — использовать агрегаторы с гибким поиском. Включите фильтр «пересадки» и смотрите, какие маршруты предлагаются. Но не ограничивайтесь одним сервисом: цены на один и тот же маршрут могут отличаться на 10–20%.</p>
-        <p>Более продвинутый метод — «склейка» рейсов вручную. Вы покупаете два отдельных билета: сначала до хаба, затем до конечной точки. Это может быть ещё дешевле, но требует осторожности: при опоздании на второй рейс вам не обязаны предоставлять альтернативу.</p>
-
-        <h2>Сколько закладывать времени между рейсами</h2>
-        <p>Оптимальное время стыковки для одного билета — 2–3 часа. Для самостоятельной «склейки» — не менее 6–8 часов. Это позволит спокойно пройти паспортный контроль, получить багаж (если он есть), перекусить и добраться до нужного гейта.</p>
-        <p>Если аэропорты разные (например, прилёт в Стамбул в один аэропорт, а вылет из другого), закладывайте 8–10 часов. И обязательно проверьте, нужна ли виза для выхода в город.</p>
-
-        <h2>Как превратить длинную стыковку в мини-путешествие</h2>
-        <p>Многие аэропорты предлагают бесплатные экскурсии для транзитных пассажиров. Например, в Стамбуле, Дохе, Сингапуре и Сеуле есть организованные туры по городу, если ваша пересадка длится от 6 до 24 часов. Это отличный шанс увидеть новую страну бесплатно или почти бесплатно.</p>
-        <p>Если экскурсий нет, можно выйти в город самостоятельно. Главное — заранее посмотрите, как добраться от аэропорта до центра и сколько это займёт времени. В некоторых городах (например, в Амстердаме или Вене) поезд до центра идёт всего 15–20 минут.</p>
-
-        <h2>Полезные советы для стыковочных рейсов</h2>
-        <ul>
-            <li><strong>Одежда.</strong> Надевайте удобную одежду и обувь: во время долгих пересадок придётся много ходить.</li>
-            <li><strong>Зарядка.</strong> Берите power bank, чтобы телефон не подвёл в самый ответственный момент.</li>
-            <li><strong>Перекус.</strong> В некоторых аэропортах еда дорогая, поэтому имейте при себе лёгкие снеки.</li>
-            <li><strong>Документы.</strong> Держите паспорт и посадочные талоны в лёгком доступе.</li>
-        </ul>
-
-        <h2>Чек-лист перед покупкой стыковочного билета</h2>
-        <ul>
-            <li>Проверьте, в одном ли аэропорту прилёт и вылет.</li>
-            <li>Узнайте, нужна ли виза для транзита или выхода в город.</li>
-            <li>Заложите достаточное время между рейсами.</li>
-            <li>Убедитесь, что багаж будет перерегистрирован (если это не «склейка»).</li>
-            <li>Посмотрите, есть ли в аэропорту бесплатные зоны отдыха и душевые.</li>
-            <li>Проверьте отзывы о пересадочном аэропорте.</li>
-        </ul>
-
-        <p>Вы можете найти выгодные стыковочные маршруты через форму поиска прямо на нашем сайте. Там видно все варианты — от прямых рейсов до сложных комбинаций с пересадками.</p>
-        <a class="btn" href="https://alexsoul78.github.io/halyava-bilety/">Найти дешёвые билеты</a>
-
-        <p style="margin-top: 30px;">А вы когда-нибудь превращали стыковку в мини-отпуск? Расскажите в комментариях, какие города удалось посмотреть между рейсами!</p>
-
-        <div class="back-link">
-            <a href="https://alexsoul78.github.io/halyava-bilety/">← На главную</a>
+        <div class="tip-card">
+            <h2>Сколько закладывать времени</h2>
+            <p>Для одного билета — 2–3 часа. Для самостоятельной «склейки» рейсов — не менее 6–8 часов. Если аэропорты разные, берите 8–10 часов.</p>
         </div>
-<!-- Читайте также -->
-        <div style="background: #fff; border-radius: 10px; padding: 20px; margin-top: 20px; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
+
+        <div class="tip-card">
+            <h2>Как превратить пересадку в мини-отпуск</h2>
+            <p>Многие аэропорты предлагают бесплатные экскурсии для транзитных пассажиров. Или выходите в город сами, если позволяет виза и время.</p>
+        </div>
+
+        <div class="widget-container">
+            <p><strong>Найдите дешёвые стыковочные рейсы:</strong></p>
+            <script async src="https://tpwgt.com/content?currency=rub&trs=560645&shmarker=514109&show_hotels=true&powered_by=true&locale=ru&searchUrl=www.aviasales.ru%2Fsearch&primary_override=%2332a8dd&color_button=%2332a8dd&color_icons=%2332a8dd&dark=%23262626&light=%23FFFFFF&secondary=%23FFFFFF&special=%23C4C4C4&color_focused=%2332a8dd&border_radius=0&plain=false&promo_id=7879&campaign_id=100" charset="utf-8"></script>
+            <p style="font-size: 12px; color: #999; margin-top: 10px;">Реклама. ООО «Авиасейлс» (aviasales.ru)</p>
+        </div>
+
+        <div class="related">
             <h2 style="font-size: 20px; color: #2c6e4f; margin: 0 0 15px;">📖 Читайте также</h2>
             <ul style="margin: 0; padding-left: 20px;">
-                <li style="margin-bottom: 10px;"><a href="hot-tickets.html" style="color: #2c6e4f; text-decoration: none;">🔥 Горящие билеты: как ловить выгодные предложения</a></li>
                 <li style="margin-bottom: 10px;"><a href="lowcost.html" style="color: #2c6e4f; text-decoration: none;">✈️ Лоукостеры: секреты дешёвых перелётов</a></li>
-                <li><a href="mistakes.html" style="color: #2c6e4f; text-decoration: none;">⚠️ Ошибки при покупке авиабилетов</a></li>
+                <li style="margin-bottom: 10px;"><a href="mistakes.html" style="color: #2c6e4f; text-decoration: none;">⚠️ Ошибки при покупке авиабилетов</a></li>
+                <li><a href="hot-tickets.html" style="color: #2c6e4f; text-decoration: none;">🔥 Горящие билеты: как ловить выгодные предложения</a></li>
             </ul>
+        </div>
+
+        <div class="back-link">
+            <a href="index.html">← На главную</a>
         </div>
     </div>
 
     <div class="footer">
-        © 2026 NEW ZEM TOUR. Все права защищены.
+        © 2026 Билеты Халява | NEW ZEM TOUR. Все права защищены.<br>
+        <a href="about.html" style="color: #999; text-decoration: none;">О сайте</a> |
+        <a href="privacy.html" style="color: #999; text-decoration: none;">Политика конфиденциальности</a>
     </div>
 
 </body>
